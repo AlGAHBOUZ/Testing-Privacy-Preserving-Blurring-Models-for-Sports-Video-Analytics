@@ -28,7 +28,7 @@ from lib.utils import glob_dir, get_last_ckpt, move_files
 
 SEED = 42
 
-class FaceAnonymizer:
+class GANApproach_1:
     def preprocess(input_path: str, img_size: int = 512, align: bool = True, test_size: float = 0.1,
                 shuffle: bool = True, output_dir: str = None, num_workers: int = 8):
         """
